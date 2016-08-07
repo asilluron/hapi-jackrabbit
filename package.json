@@ -1,0 +1,44 @@
+{
+  "name": "hapi-jackrabbit",
+  "version": "0.0.0",
+  "description": "Hapi plugin to handle Jackrabbit handshake and manage connections.",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "lab -a code -t 100 -L"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/asilluron/hapi-jackrabbit.git"
+  },
+  "keywords": [
+    "hapi",
+    "jackrabbit",
+    "rabbitmq",
+    "plugin",
+    "jack",
+    "rabbit",
+    "hapijs",
+    "amqp",
+    "ampq"
+  ],
+  "author": "Andrew Silluron",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/asilluron/hapi-jackrabbit/issues"
+  },
+  "homepage": "https://github.com/asilluron/hapi-jackrabbit#readme",
+  "devDependencies": {
+    "boom": "^3.2.2",
+    "code": "^3.0.2",
+    "eslint": "^3.2.2",
+    "eslint-config-semistandard": "^6.0.2",
+    "eslint-config-standard": "^5.3.5",
+    "hapi": "^14.1.0",
+    "lab": "^10.9.0",
+    "rewire": "^2.5.2",
+    "sinon": "^1.17.5"
+  },
+  "dependencies": {
+    "hoek": "^4.0.2"
+  }
+}
