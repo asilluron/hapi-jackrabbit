@@ -1,6 +1,6 @@
 {
   "name": "hapi-jackrabbit",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Hapi plugin to handle Jackrabbit handshake and manage connections.",
   "main": "lib/plugin.js",
   "scripts": {
