@@ -2,7 +2,7 @@
   "name": "hapi-jackrabbit",
   "version": "0.0.0",
   "description": "Hapi plugin to handle Jackrabbit handshake and manage connections.",
-  "main": "lib/index.js",
+  "main": "lib/plugin.js",
   "scripts": {
     "test": "lab -a code -t 100 -L"
   },
@@ -39,6 +39,7 @@
     "sinon": "^1.17.5"
   },
   "dependencies": {
-    "hoek": "^4.0.2"
+    "hoek": "^4.0.2",
+    "jackrabbit": "^4.3.0"
   }
 }
